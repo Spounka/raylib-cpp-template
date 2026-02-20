@@ -1,0 +1,30 @@
+# clang-uml.yml  (for clang-uml ≤0.3)
+compilation_database_dir: .
+output_directory: diagrams
+
+diagrams:
+  template:
+    type: class
+    glob:
+      - include/**/*.hpp
+      - src/**/*.cpp
+      - main.cpp
+    include:
+      paths:
+        - include
+        - src
+      relationships: [inheritance, composition, aggregation]
+    exclude:
+      relationships: [dependency, association]
+      paths:
+        - extern
+        - cmake-build
+        - out
+    generate_packages: true
+    plantuml:
+      before:
+        - left to right direction
+        - skinparam linetype ortho
+        - skinparam nodesep 80
+        - skinparam ranksep 120
+        - hide members

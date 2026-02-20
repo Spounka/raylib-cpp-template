@@ -1,7 +1,6 @@
 [submodule "extern/raylib"]
 	path = extern/raylib
 	url = https://github.com/raysan5/raylib
-    ; branch = 5.5
     commit = c1ab645c
 [submodule "extern/raylib-cpp"]
 	path = extern/raylib-cpp
