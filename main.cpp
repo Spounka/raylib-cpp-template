@@ -1,7 +1,8 @@
-#include <iostream>
+#include "game.hpp"
 
 
 int main() {
-    std::cout << "Hello, World!\n";
+    application::Game game{800, 600, "Template"};
+    game.Run();
     return 0;
 }
