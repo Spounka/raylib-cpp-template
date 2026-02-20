@@ -2,7 +2,9 @@
 	path = extern/raylib
 	url = https://github.com/raysan5/raylib
     commit = c1ab645c
+    shallow = true
 [submodule "extern/raylib-cpp"]
 	path = extern/raylib-cpp
 	url = https://github.com/RobLoach/raylib-cpp
     commit = 6d9d02c
+    shallow = true
