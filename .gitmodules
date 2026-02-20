@@ -6,3 +6,4 @@
 [submodule "extern/raylib-cpp"]
 	path = extern/raylib-cpp
 	url = https://github.com/RobLoach/raylib-cpp
+    commit = 6d9d02c
